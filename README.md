@@ -1,5 +1,5 @@
 # seanCLC.github.io
-<!DOCTYPE html>
+
 <htlm>
 <head>
 <title>HELLO!曹利纯</title>
