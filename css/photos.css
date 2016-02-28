@@ -1,0 +1,51 @@
+	body{width:1200px;height:1610px;}
+	#top{font:normal bold 50px "ËÎÌו";text-align:center;}
+	p{font-size:40px;text-align:left;}
+	#carousel1 {
+	width:1050px;
+	height:1200px;
+	overflow:hidden;
+	position:relative;
+	border-bottom:solid 1px #d8d9da;
+	margin:0 auto;
+}
+#carousel1 img {
+	border:none;
+	width:600px;
+	height:800px;
+	border:solid 1px #000;
+}
+#carousel1 #title-text {
+	font-size:22px;
+	margin:10px 20px 0 0;
+	padding:0;
+	text-align:right;
+}
+#carousel1 #alt-text {
+	font-size:14px;
+	margin:5px 20px 0 0;
+	padding:0;
+	text-align:right;
+}
+#carousel1 #user-c {
+	padding:0;
+	position:absolute;
+	right:15px;
+	bottom:10px;
+}
+#carousel1 .carouselLeft, #carousel1 .carouselRight {
+	position:absolute;
+	bottom:20px;
+	width:29px;
+	height:30px;
+	overflow:hidden;
+	cursor:pointer;
+}
+#carousel1 .carouselLeft {
+	right:60px;
+	background:url(images/left.png) no-repeat;
+}
+#carousel1 .carouselRight {
+	right:808px;
+	background:url(images/right.png) no-repeat;
+}

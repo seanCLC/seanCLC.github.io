@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>我的生活照</title>
+<link rel="stylesheet"  type="text/css" href="css/photos.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/JavaScript" src="js/CloudCarousel.1.0.5.js"></script>
+<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script><!--鼠标滚动插件-->
+<script type="text/javascript">
+$(document).ready(function(){						   
+	// 这初始化容器中指定的元素，在这种情况下，旋转木马.
+	$("#carousel1").CloudCarousel({			
+		xPos:450,
+		yPos:110,
+		buttonLeft: $('#but1'),
+		buttonRight: $('#but2'),
+		altBox: $("#alt-text"),
+		titleBox: $("#title-text"),				
+		FPS:30,
+		reflHeight:86,
+		reflGap:2,
+		yRadius:40,
+		autoRotateDelay: 1200,
+		speed:0.2,
+		mouseWheel:true,
+		bringToFront:true
+	});	
+});
+</script>
+
+</head>
+
+<body>
+<h2></h2>
+<div id="top">
+<span>我的生活照</span>
+<p>*爱笑的人运气都不会差！<br/>*珍惜每一个今天，在我们还可以看到明媚的阳光、听到鸟鸣风声、畅快的呼吸、自由的生活时。
+</p>	
+</div>
+
+<div id="down">
+<div id="carousel1">
+  			<p id="title-text"></p>
+  			<p id="alt-text"></p>
+  			<a target="_parent" ><img class="cloudcarousel"  src="images/21.jpg"/></a> 
+  			<a target="_parent" ><img class="cloudcarousel"  src="images/22.jpg"/></a>
+  			<a target="_parent" ><img class="cloudcarousel"  src="images/23.jpg"/></a> 
+  			<a target="_parent" ><img class="cloudcarousel"  src="images/24.jpg"/></a> 
+  			<a target="_parent" ><img class="cloudcarousel"  src="images/25.jpg"/></a> 
+  			<a target="_parent" ><img class="cloudcarousel"  src="images/26.jpg"/></a> 
+ 			<a target="_parent" ><img class="cloudcarousel"  src="images/27.jpg"/></a> 
+  			<a target="_parent" ><img class="cloudcarousel"  src="images/28.jpg"/></a>
+  		<div id="but1" class="carouselLeft"></div>
+  		<div id="but2" class="carouselRight"></div>
+</div>
+
+
+</body>
+
+</html>

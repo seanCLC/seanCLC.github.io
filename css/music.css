@@ -1,0 +1,8 @@
+	body{width:1200px;height:1610px;}
+	span{font:italic bold 50px "·½ÕýÒ¦Ìå";background-color:#00FF00;}
+	#div1,#div2{ width: 1200px; margin: 0 auto;  }
+	.left {float:left; width:680px; height: 900px; border: none;}
+	.right { float:right; width: 500px; height: 900px; border: dotted 5px lightgreen;border-radius:50px 10px 10px 50px;} 
+	#div2 { width: auto; height:800px margin: 0;border: dotted 5px lightgreen;border-radius:50px 50px 50px 50px;}
+	p{margin-top:0px;font-size:50px;text-align:center;}
+	ul{font-size:30px;}
